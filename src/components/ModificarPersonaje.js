@@ -119,7 +119,7 @@ export default class ModificarPersonaje extends Component {
                     </select>
                     <br/>
                     <button onClick={this.modificaPersonaje} className='btn btn-info'>Guardar cambios</button>
-                    <h2>{this.state.mensaje}</h2>
+                    <h2 className='text-success'>{this.state.mensaje}</h2>
                 </form>
                 <hr/>
                 {
