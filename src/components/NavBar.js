@@ -32,7 +32,7 @@ export default class NavBar extends Component {
                                     <NavLink className="nav-link active" aria-current="page" to="/nuevopersonaje">Nuevo Personje</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link active" aria-current="page" to="/rutaPraCuartoLink">Modificar Personje</NavLink>
+                                    <NavLink className="nav-link active" aria-current="page" to="/modificarpersonaje">Modificar Personje</NavLink>
                                 </li>
                             </ul>
                         </div>

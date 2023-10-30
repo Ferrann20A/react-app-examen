@@ -5,6 +5,7 @@ import Home from './Home';
 import Serie from './Serie';
 import Personajes from './Personajes';
 import NuevoPersonaje from './NuevoPersonaje';
+import ModificarPersonaje from './ModificarPersonaje';
 
 export default class Router extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class Router extends Component {
                         <Route path='/serie/:idserie' element={<SerieElement/>}/>
                         <Route path='/personajes/:idserie' element={<PersonajesElement/>}/>
                         <Route path='/nuevopersonaje' element={<NuevoPersonaje/>}/>
+                        <Route path='/modificarpersonaje' element={<ModificarPersonaje/>}/>
                     </Routes>
                 </BrowserRouter>
             </div>
